@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <div class="topnav">
+  <a class="active" href="#home">Home</a>
+  <a href="Mig.html">Mig</a>
+  <a href="Applap.html">Applap</a>
+  <a href="Nielsbrock.html">Nielsbrock</a>
+  <a href="Javascript.html">JavaScript</a>
+</div>
+
+</div>
+
+   main class="container">
+    <h1>JavaScript Opgaver</h1>
+
+    <!-- Opgave 1 -->
+    <section class="card">
+      <h2>1. Skift tekst ved klik på knap</h2>
+      <p id="text1">Her er den oprindelige tekst.</p>
+      <button onclick="skiftTekst()">Skift tekst</button>
+    </section>
+
+    <!-- Opgave 2 -->
+    <section class="card">
+      <h2>2. Skift baggrundsfarve</h2>
+      <button onclick="skiftBaggrund()">Skift farve</button>
+    </section>
+
+    <!-- Opgave 3 -->
+    <section class="card">
+      <h2>3. Vis/Skjul element</h2>
+      <p id="text3">Denne tekst kan skjules og vises.</p>
+      <button onclick="toggleElement()">Vis/Skjul</button>
+    </section>
+
+    <!-- Opgave 4 -->
+    <section class="card">
+      <h2>4. Simpel tæller</h2>
+      <p>Tæller: <span id="counter">0</span></p>
+      <button onclick="taelOp()">Tæl op</button>
+      <button onclick="taelNed()">Tæl ned</button>
+    </section>
+
+    <!-- Opgave 5 -->
+    <section class="card">
+      <h2>5. Live tegnoptælling</h2>
+      <input type="text" id="input5" oninput="tegnOptaelling()">
+      <p>Antal tegn: <span id="count5">0</span></p>
+    </section>
+
+    <!-- Opgave 6 -->
+    <section class="card">
+      <h2>6. Vis tekst fra inputfelt</h2>
+      <input type="text" id="input6" placeholder="Skriv noget her">
+      <button onclick="visTekst()">Vis tekst</button>
+      <p id="output6"></p>
+    </section>
+  </main>
+
+  <!-- Link til JavaScript -->
+  <script src="javascript.js"></script>
+</body>
+</html>
